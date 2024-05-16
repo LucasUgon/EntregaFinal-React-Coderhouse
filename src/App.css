@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(173, 255, 206);
+  padding: 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  list-style-type: none;
+  gap: .5rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(59, 139, 252);
+}
+
+.items-container {
+  min-height: 50vh;
+  display: grid;
+  place-items: center;
+}
