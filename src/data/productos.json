@@ -1,0 +1,112 @@
+[
+    {
+        "id": 1,
+        "nombre": "Samsung Galaxy S21",
+        "precio": 799.99,
+        "imagen": "https://samsungar.vtexassets.com/arquivos/ids/191559-1200-auto?width=1200&height=auto&aspect=true",
+        "descripcion": "El Samsung Galaxy S21 cuenta con una pantalla de 6.2 pulgadas, cámara triple y un potente procesador Exynos 2100.",
+        "categoria": {
+            "id": "samsung",
+            "nombre": "Samsung"
+        }
+    },
+    {
+        "id": 2,
+        "nombre": "Samsung Galaxy Note 20",
+        "precio": 999.99,
+        "imagen": "https://blazing-tech.net/wp-content/uploads/2023/05/pixelcut-export-1682574363364-1.png",
+        "descripcion": "El Samsung Galaxy Note 20 ofrece una pantalla de 6.7 pulgadas, S Pen y un procesador Exynos 990.",
+        "categoria": {
+            "id": "samsung",
+            "nombre": "Samsung"
+        }
+    },
+    {
+        "id": 3,
+        "nombre": "iPhone 13",
+        "precio": 599.99,
+        "imagen": "https://tienda.personal.com.ar/images/320/webp/Iphone_13_Pro_256_GB_Silver2_7522377cbb.png",
+        "descripcion": "El iPhone 13 ofrece una pantalla Super Retina XDR de 6.1 pulgadas, chip A15 Bionic y cámara dual con modo noche.",
+        "categoria": {
+            "id": "apple",
+            "nombre": "Apple"
+        }
+    },
+    {
+        "id": 4,
+        "nombre": "iPhone 12",
+        "precio": 499.99,
+        "imagen": "https://tienda.personal.com.ar/images/320/webp/Iphone_13_Pro_256_GB_Silver2_7522377cbb.png",
+        "descripcion": "El iPhone 12 cuenta con una pantalla Super Retina XDR de 6.1 pulgadas, chip A14 Bionic y sistema de cámara dual.",
+        "categoria": {
+            "id": "apple",
+            "nombre": "Apple"
+        }
+    },
+    {
+        "id": 5,
+        "nombre": "Xiaomi Mi 11",
+        "precio": 749.99,
+        "imagen": "https://pics.chimeratool.com/modelimages/13931_1671013362_1a140c55b70e3f5853e5ac7475ccbdb657fce903.png",
+        "descripcion": "El Xiaomi Mi 11 tiene una pantalla AMOLED de 6.81 pulgadas, cámara de 108 MP y procesador Snapdragon 888.",
+        "categoria": {
+            "id": "xiaomi",
+            "nombre": "Xiaomi"
+        }
+    },
+    {
+        "id": 6,
+        "nombre": "Xiaomi Redmi Note 10 Pro",
+        "precio": 299.99,
+        "imagen": "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note10-pro.jpg",
+        "descripcion": "El Xiaomi Redmi Note 10 Pro ofrece una pantalla AMOLED de 6.67 pulgadas, cámara cuádruple de 108 MP y procesador Snapdragon 732G.",
+        "categoria": {
+            "id": "xiaomi",
+            "nombre": "Xiaomi"
+        }
+    },
+    {
+        "id": 7,
+        "nombre": "Motorola Edge 20 Pro",
+        "precio": 699.99,
+        "imagen": "https://imei.org/storage/files/images/5065/preview/motorola-edge-20-pro-1.png",
+        "descripcion": "El Motorola Edge 20 Pro viene con una pantalla OLED de 6.7 pulgadas, cámara principal de 108 MP y procesador Snapdragon 870.",
+        "categoria": {
+            "id": "motorola",
+            "nombre": "Motorola"
+        }
+    },
+    {
+        "id": 8,
+        "nombre": "Motorola Moto G Power",
+        "precio": 249.99,
+        "imagen": "https://m.media-amazon.com/images/I/61I2yy1G57L._AC_SL1500_.jpg",
+        "descripcion": "El Motorola Moto G Power cuenta con una pantalla de 6.6 pulgadas, batería de 5000 mAh y cámara triple.",
+        "categoria": {
+            "id": "motorola",
+            "nombre": "Motorola"
+        }
+    },
+    {
+        "id": 9,
+        "nombre": "Samsung Galaxy A52",
+        "precio": 499.99,
+        "imagen": "https://m.media-amazon.com/images/I/61wnGv3Qc5L._AC_SL1000_.jpg",
+        "descripcion": "El Samsung Galaxy A52 ofrece una pantalla Super AMOLED de 6.5 pulgadas, cámara cuádruple y procesador Snapdragon 720G.",
+        "categoria": {
+            "id": "samsung",
+            "nombre": "Samsung"
+        }
+    },
+    {
+        "id": 10,
+        "nombre": "Xiaomi Poco X3 Pro",
+        "precio": 399.99,
+        "imagen": "https://system.pepezone.ec//files/up/imgProducts/2525_XIAOMI-POCO-X3-PRO-128GB-COLOR-AZUL-_5302021103240AM.JPG",
+        "descripcion": "El Xiaomi Poco X3 Pro cuenta con una pantalla IPS de 6.67 pulgadas, cámara cuádruple y procesador Snapdragon 860.",
+        "categoria": {
+            "id": "xiaomi",
+            "nombre": "Xiaomi"
+        }
+    }
+]

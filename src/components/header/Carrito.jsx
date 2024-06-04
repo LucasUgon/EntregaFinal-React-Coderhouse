@@ -1,9 +1,12 @@
 import React from 'react'
 
-export const Carrito = () => {
+export const Carrito = (props) => {
+
+
+
     return (
      <div className='carrito'>
-      🛒 5
+      🛒 {props.numerito}
      </div>
         
     )

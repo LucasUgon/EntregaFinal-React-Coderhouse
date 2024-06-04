@@ -1,0 +1,21 @@
+[   
+    
+    {
+        "id": "samsung",
+        "nombre": "Samsung"
+    },
+    {
+        "id": "apple",
+        "nombre": "Apple"
+    },
+    {
+        "id": "motorola",
+        "nombre": "Motorola"
+    },
+    {
+        "id": "xiaomi",
+        "nombre": "Xiaomi"
+    }
+
+
+]
