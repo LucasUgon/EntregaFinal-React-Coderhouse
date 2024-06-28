@@ -12,7 +12,7 @@ const ItemDetail = ({producto}) => {
     <h2 id="product-name">{producto.nombre}</h2>
     <h3 id="product-info">{producto.descripcion}</h3>
     <p id="price">USD$ {producto.precio}</p>
-    <button class="info-button" onClick={()=>agregarAlCarrito(producto)}>Comprar</button>
+    <button className="info-button" onClick={()=>agregarAlCarrito(producto)}>Comprar</button>
  </div>
   )
 }

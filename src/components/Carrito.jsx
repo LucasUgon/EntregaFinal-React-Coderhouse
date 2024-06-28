@@ -16,10 +16,10 @@ const Carrito = () =>{
             { carrito.length > 0 ?
             <>
             <h2 id="price-carrito">Total: USD$ {calcularTotal()} </h2>
-            <button class="info-button" onClick={vaciarCarrito}>Vaciar Carrito</button>
+            <button className="info-button" onClick={vaciarCarrito}>Vaciar Carrito</button>
             <br />
             <br />
-            <Link class="info-button" to="/checkout">Finalizar compra </Link>
+            <Link className="info-button" to="/checkout">Finalizar compra </Link>
             </>: 
             <h2 id="carrito-vacio">Carrito Vacio</h2>
             }
