@@ -1,19 +1,41 @@
-import React, { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
-import data from "../data/productos.json";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import { doc , getDoc } from "firebase/firestore";
+import { db } from "../firebase/config";
+import ItemDetail from "./ItemDetail";
 
-const ItemDetailContainer = () => {
+
+
+const ItemDetailContainer = ({}) => {
 
     let { itemId } = useParams();
     let [producto, setProducto] = useState(undefined);
 
+    let [loading, setLoading] = useState(true);
+
     useEffect(() => {
-        setProducto(data.find((prod)=> prod.id === parseInt(itemId)))
+
+        const docRef = doc(db, "productos", itemId);
+        getDoc(docRef)
+        .then(res => {
+            if (res.data()) {
+                setProducto({ ...res.data(),id: res.id });
+            } 
+            setLoading(false);
+        })
+
+       
     }, [itemId])
 
-    return (
-        <div>{producto ? producto.nombre : "Cargando Productos..."}</div>
-    )
+
+    if (loading){
+        return <div>"Cargando Productos..."</div>
+    } else if (producto){
+        return <ItemDetail producto={producto}/>
+    } else {
+        return <div>EL producto no existe</div>
+    }
+   
 }
 
 export default ItemDetailContainer
